@@ -10,7 +10,7 @@ In this notebook we will Explore how Conv1D can be used to learn a pattern from 
 
 We will build neural network classification Model using Tensorflow.
 
-### Types of News
+## Types of News
 * comp.graphics
 *   comp.os.ms-windows.misc
 *   comp.sys.ibm.pc.hardware
@@ -32,7 +32,10 @@ We will build neural network classification Model using Tensorflow.
 *   alt.atheism
 *   soc.religion.christian
 
-### Training The models to Classify: 
+## Label Distribution
+![Label_distribution](Model_output/label_dist.png)
+
+## Training The models to Classify: 
 
 <pre>
 1. Combine "preprocessed_text", "preprocessed_subject", "preprocessed_emails" into one column. use that column to model. 
@@ -59,3 +62,36 @@ We will build neural network classification Model using Tensorflow.
 upload those imgages to Classroom. You can use "plot_model" 
 please refer <a href='https://www.tensorflow.org/api_docs/python/tf/keras/utils/plot_model'>this</a> 
 </pre>
+
+## Model 1 Architecture:
+
+![Model1 Architecture](Model_output/Model1_document_classification.png)
+
+## Model1 Confusion Matrix
+
+![Model1 cm](Model_output/model_1_confusion_matrix.png)
+
+## Model1 Each class accuracy
+
+| Label                    | model 1 class accuracy |
+| ------------------------ | ---------------------- |
+| alt.atheism              | 0.8                    |
+| comp.graphics            | 0.773663               |
+| comp.os.ms-windows.misc  | 0.813008               |
+| comp.sys.ibm.pc.hardware | 0.616327               |
+| comp.sys.mac.hardware    | 0.804167               |
+| comp.windows.x           | 0.857143               |
+| misc.forsale             | 0.777778               |
+| rec.autos                | 0.947581               |
+| rec.motorcycles          | 0.931727               |
+| rec.sport.baseball       | 0.955823               |
+| rec.sport.hockey         | 0.948                  |
+| sci.crypt                | 0.915323               |
+| sci.electronics          | 0.804082               |
+| sci.med                  | 0.927126               |
+| sci.space                | 0.939271               |
+| soc.religion.christian   | 0.907631               |
+| talk.politics.guns       | 0.85022                |
+| talk.politics.mideast    | 0.940426               |
+| talk.politics.misc       | 0.798969               |
+| talk.religion.misc       | 0.866242               |
