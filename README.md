@@ -95,3 +95,39 @@ please refer <a href='https://www.tensorflow.org/api_docs/python/tf/keras/utils/
 | talk.politics.mideast    | 0.940426               |
 | talk.politics.misc       | 0.798969               |
 | talk.religion.misc       | 0.866242               |
+
+
+## Model 2 Architecture:
+
+![Model2 Architecture](Model_output/Model2_document_classification.png)
+
+## Model2 Confusion Matrix
+
+![Model2 cm](Model_output/model_2_confusion_matrix.png)
+
+## Model2 Each class accuracy
+| class Label              | model 2 class accuracy |
+| ------------------------ | ---------------------- |
+| alt.atheism              | 0.765                  |
+| comp.graphics            | 0.633745               |
+| comp.os.ms-windows.misc  | 0.756098               |
+| comp.sys.ibm.pc.hardware | 0.555102               |
+| comp.sys.mac.hardware    | 0.8125                 |
+| comp.windows.x           | 0.726531               |
+| misc.forsale             | 0.73251                |
+| rec.autos                | 0.637097               |
+| rec.motorcycles          | 0.75502                |
+| rec.sport.baseball       | 0.811245               |
+| rec.sport.hockey         | 0.736                  |
+| sci.crypt                | 0.91129                |
+| sci.electronics          | 0.661224               |
+| sci.med                  | 0.761134               |
+| sci.space                | 0.821862               |
+| soc.religion.christian   | 0.718876               |
+| talk.politics.guns       | 0.682819               |
+| talk.politics.mideast    | 0.914894               |
+| talk.politics.misc       | 0.768041               |
+| talk.religion.misc       | 0.694268               |
+
+
+
